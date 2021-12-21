@@ -5,9 +5,9 @@
 ## Daftar Isi
 | No | ISI | Link | Source Code |
 | -- | --- | ---- | ----------- |
-| 1. | File Program | Tugas Praktikum | [codenye](https://github.com/Tangker17/pertemuan-12/blob/main/Program_Nilai.py) |
-| 2. | Flowchart | Flowchart ) | [file](https://github.com/Tangker17/pertemuan-12/blob/main/flowchart.png) | 
-| 3. | Tampilan Program | Hasil ) | [file](https://github.com/Tangker17/pertemuan-12/blob/main/hasil.png) | 
+| 1. | File Program | Tugas Praktikum | [Open](https://github.com/Tangker17/pertemuan-12/blob/main/Program_Nilai.py) |
+| 2. | Flowchart | Flowchart  | [Open](https://github.com/Tangker17/pertemuan-12/blob/main/flowchart.png) | 
+| 3. | Tampilan Program | Hasil  | [Open](https://github.com/Tangker17/pertemuan-12/blob/main/hasil.png) | 
 
 # Tugas Praktikum class
 - Kelas atau class pada python bisa kita katakan sebagai sebuah blueprint (cetakan) dari objek (atau instance) yang ingin kita buat. Kelas adalah cetakannya atau definisinya, sedangkan objek (atau instance) adalah objek nyatanya.
