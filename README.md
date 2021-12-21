@@ -12,23 +12,82 @@
 Membuat Program sederhana berdasarkan tugas praktikum yang sebelumnya dengan struktur seperti berikut:
 
 - pertemuan 12.py berisi modul untuk: tambah_data, ubah_data, hapus_data, dan lihat_data
+- Tambah Data / Input Data 
 
-![gambar output](image/daftarnilai.png)
-![gambar output](image/daftarnilai2.png)
+```
+def pilih1():
+	ulang = 'Y'
+	while ulang in('y', 'Y'):
+		os.system('cls')
+		siswaNilai = Mahasiswa() 
+		print(" DATA NILAI UTS MAHASISWA ") 
+		siswaNilai.nilai = (int(input("masukkan nilai anda : "))) 
+		siswaNilai.nama = (input("masukkan nama siswa : ")) 
+		dataSiswa.append(siswaBaru) 
+		ulang = input("Apakah Anda Ingin Menambahkan data nilai siswa (Y/ T)? ")		
 
-- view_nilai.py berisi modul untuk: cetak_daftar_nilai, cetak_hasil_pencarian
+menu()
+```
 
-![gambar output](image/viewnilai.png)
+- Tampilkan Data dari hasil inputan tersebut dengan code 
 
-- input_nilai.py berisi modul untuk: input_data yang meminta pengguna memasukkan data.
-![gambar output](image/inputnilai.png)
+```
+def tampil():
+	os.system('cls');
+	print("DATA MAHASISWA")
 
-- main.py berisi program utama (menu pilihan yang memanggil semua menu yang ada
-![gambar output](image/main.png)
+	for data in dataSiswa:
+		print("Nilai : "+str(data.nilai)) 
+		print("Nama : "+data.nama) 
+		print("----------------------")
+```
 
-- hasil dari inputan program 
-![gambar output](image/hasil.png)
+- Method Menghapus Data Berdasarkan Nilai Dan Nama 
 
+```
+elif pilih ==4:
+		os.system('cls') 
+		tampil()
+		index_delete=-1
+		id_hapus = int(input("Input Nilai yang akan di hapus : ")) 
+		for a in range(0, len(dataSiswa)): 
+			if id_edit == dataSiswa[a].nilai:
+						index_update = a
+						break
+		if(index_delete > -1):
+			del dataSiswa[index_delete]
+			print("Data Telah di hapus") 
+		else : print("siswa tidak ditemukan")
+		input("kembali menu utama") 
+		menu()
+	elif pilih == 5 :
+		author()
+		input("\n\n kembali menu utama") 
+		menu()
+	elif pilih == 6 :
+		sys.exit()
+ ```
+- Method Ubah DATA Berdasarkan Nilai Dan Nama 
 
+``` 
+elif pilih == 3:
+		index_update=-1
+		tampil()
+		id_edit = int(input("Input Nilai UTS yang akan di update ")) 
+		for a in range(0, len(dataSiswa)): 
+			if id_edit == dataSiswa[a].nilai: 
+					index_update = a 
+					break 
+		if(index_update > -1): 
+			print("INPUT DATA YANG DI UPATE ") 
+			siswa = Mahasiswa() 
+			siswa.nilai = (int(input("masukkan nilai anda : "))) 
+			siswa.nama = (input("masukkan nama siswa : ")) 
+			dataSiswa[index_update] = siswa 
+			print("berhasil update data siswa") 
+		else : print("nilai tidak ditemukan") 
+		input("kembali menu utama") 
+		menu()
+```
 
 
