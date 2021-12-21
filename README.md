@@ -5,8 +5,8 @@
 ## Daftar Isi
 | No | ISI | Link | Source Code |
 | -- | --- | ---- | ----------- |
-| 1. | Folder Syntax | [penjelasan](# Tugas Praktikum | [codenye](https://github.com/Tangker17/pertemuan-12/blob/main/Program_Nilai.py) |
-| 2. | hasil Program | [penjelasan](# Tugas Flowchart) | [foto](image) |  
+| 1. | File Program | Tugas Praktikum | [codenye](https://github.com/Tangker17/pertemuan-12/blob/main/Program_Nilai.py) |
+| 2. | Flowchart | Flowchart ) | [foto](image) |  
 
 # Tugas PackageModule
 Membuat Program sederhana berdasarkan tugas praktikum yang sebelumnya dengan struktur seperti berikut:
