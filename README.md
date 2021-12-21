@@ -8,7 +8,9 @@
 | 1. | File Program | Tugas Praktikum | [codenye](https://github.com/Tangker17/pertemuan-12/blob/main/Program_Nilai.py) |
 | 2. | Flowchart | Flowchart ) | [foto](image) |  
 
-# Tugas PackageModule
+# Tugas Praktikum class
+- Kelas atau class pada python bisa kita katakan sebagai sebuah blueprint (cetakan) dari objek (atau instance) yang ingin kita buat. Kelas adalah cetakannya atau definisinya, sedangkan objek (atau instance) adalah objek nyatanya.
+
 Membuat Program sederhana berdasarkan tugas praktikum yang sebelumnya dengan struktur seperti berikut:
 
 - pertemuan 12.py berisi modul untuk: tambah_data, ubah_data, hapus_data, dan lihat_data
@@ -90,4 +92,7 @@ elif pilih == 3:
 		menu()
 ```
 
-
+# Tugas Flowchart
+- Diagram alir bagan alir, atau bagan arus adalah sebuah jenis diagram yang mewakili algoritme, alir kerja atau proses, yang menampilkan langkah-langkah dalam bentuk simbol-simbol grafis, dan urutannya dihubungkan dengan panah
+Dengan Contoh Dibawah Ini !
+![flowchart](flowchart.png)
